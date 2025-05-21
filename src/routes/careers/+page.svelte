@@ -121,34 +121,28 @@
 	];
 
 	const employeeTestimonials = [
-		{
-			name: "Michael Chen",
-			position: "Senior Developer",
-			company: "Engineering Team",
-			quote:
-				"Working here has given me the opportunity to tackle challenging problems while maintaining a healthy work-life balance. The team culture is supportive and collaborative.",
-			image:
-				"https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Priya Sharma",
-			position: "Product Designer",
-			company: "Design Team",
-			quote:
-				"The creative freedom and opportunity to influence product decisions makes this the best place I've ever worked. I'm constantly learning and growing.",
-			image:
-				"https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Marcus Johnson",
-			position: "Marketing Lead",
-			company: "Marketing Team",
-			quote:
-				"I joined three years ago and have grown tremendously. The leadership truly invests in your development and the work environment is both challenging and supportive.",
-			image:
-				"https://images.unsplash.com/photo-1531384441138-2736e62e0919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
-		}
-	];
+  {
+    name: "Gabriela Torres",
+    position: "Software Engineer",
+    company: "Engineering Team",
+    quote: "XBOW stands out for its supportive, genuinely inclusive environment. I’m encouraged to bring new ideas and collaborate cross-functionally every day. The mentorship here is real—people care about your growth and success.",
+    image: "/generated/image-a-professional-latina-female-engineer-wo.webp"
+  },
+  {
+    name: "Darius Moore",
+    position: "Head of Product",
+    company: "Product Team",
+    quote: "I’ve led teams across tech, but at XBOW, it’s different—the sense of purpose, transparency, and trust is unmatched. You’re trusted with big challenges and given the room to drive real impact, knowing leadership has your back.",
+    image: "/generated/image-a-black-male-senior-product-leader-in-a-.webp"
+  },
+  {
+    name: "Jamie Liu",
+    position: "Operations Associate",
+    company: "Operations",
+    quote: "Coming in as a recent grad, I was looking for a place where I could learn and be supported. XBOW made me feel welcome from day one, and I’m empowered to make meaningful contributions regardless of my role or how I identify.",
+    image: "/generated/image-a-young-asian-non-binary-operations-empl.webp"
+  }
+];
 
 	const processSteps = [
 		{

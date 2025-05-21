@@ -37,134 +37,164 @@ Please update features according to the company's product offering. Do not remov
 	const {
 		title = "Simple, transparent pricing",
 		subtitle = "Choose the plan that works best for your needs",
-		tierNames = ["Starter", "Pro", "Enterprise"],
+		tierNames = ["Offensive Essentials", "Security Operations", "Enterprise Intelligence"],
 		features = [
 			{
-				name: "Projects",
+				name: "Vulnerability Scanning",
 				tiers: {
-					Starter: "5",
-					Pro: "Unlimited",
-					Enterprise: "Unlimited"
+					"Offensive Essentials": true,
+					"Security Operations": true,
+					"Enterprise Intelligence": true
 				}
 			},
 			{
-				name: "Team members",
+				name: "Basic Reporting",
 				tiers: {
-					Starter: "1",
-					Pro: "10",
-					Enterprise: "Unlimited"
+					"Offensive Essentials": true,
+					"Security Operations": true,
+					"Enterprise Intelligence": true
 				}
 			},
 			{
-				name: "Storage",
+				name: "Limited Attack Surface",
 				tiers: {
-					Starter: "1GB",
-					Pro: "10GB",
-					Enterprise: "Unlimited"
+					"Offensive Essentials": true,
+					"Security Operations": true,
+					"Enterprise Intelligence": true
 				}
 			},
 			{
-				name: "API access",
+				name: "Email Support",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					"Offensive Essentials": true,
+					"Security Operations": true,
+					"Enterprise Intelligence": true
 				}
 			},
 			{
-				name: "Custom domains",
+				name: "Threat Intelligence Feeds",
 				tiers: {
-					Starter: false,
-					Pro: true,
-					Enterprise: true
+					"Offensive Essentials": false,
+					"Security Operations": true,
+					"Enterprise Intelligence": true
 				}
 			},
 			{
-				name: "Analytics",
+				name: "SIEM Integration",
 				tiers: {
-					Starter: "Basic",
-					Pro: "Advanced",
-					Enterprise: "Advanced"
+					"Offensive Essentials": false,
+					"Security Operations": true,
+					"Enterprise Intelligence": true
 				}
 			},
 			{
-				name: "Support response time",
+				name: "Incident Response",
 				tiers: {
-					Starter: "24 hours",
-					Pro: "4 hours",
-					Enterprise: "1 hour"
+					"Offensive Essentials": false,
+					"Security Operations": true,
+					"Enterprise Intelligence": true
 				}
 			},
 			{
-				name: "Dedicated account manager",
+				name: "24/7 Support",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: true
+					"Offensive Essentials": false,
+					"Security Operations": true,
+					"Enterprise Intelligence": true
+				}
+			},
+			{
+				name: "Custom Threat Modeling",
+				tiers: {
+					"Offensive Essentials": false,
+					"Security Operations": false,
+					"Enterprise Intelligence": true
+				}
+			},
+			{
+				name: "Advanced Analytics",
+				tiers: {
+					"Offensive Essentials": false,
+					"Security Operations": false,
+					"Enterprise Intelligence": true
+				}
+			},
+			{
+				name: "Dedicated Security Consultant",
+				tiers: {
+					"Offensive Essentials": false,
+					"Security Operations": false,
+					"Enterprise Intelligence": true
+				}
+			},
+			{
+				name: "Custom Integrations",
+				tiers: {
+					"Offensive Essentials": false,
+					"Security Operations": false,
+					"Enterprise Intelligence": true
 				}
 			},
 			{
 				name: "SLA",
 				tiers: {
-					Starter: false,
-					Pro: false,
-					Enterprise: "99.9%"
+					"Offensive Essentials": false,
+					"Security Operations": false,
+					"Enterprise Intelligence": true
 				}
 			}
 		],
 		tiers = [
 			{
-				name: "Starter",
-				monthlyPrice: 9.99,
-				yearlyPrice: 7.99, // 20% savings
-				description: "Perfect for individuals and small projects",
+				name: "Offensive Essentials",
+				monthlyPrice: 1000,
+				yearlyPrice: 10000, // Approximate, real price to be finalized; can adjust
+				description: "Core offensive security tools for basic vulnerability assessments.",
 				features: [
-					"Up to 5 projects",
-					"Basic analytics",
-					"24-hour support response time",
-					"1GB storage"
+					"Vulnerability Scanning",
+					"Basic Reporting",
+					"Limited Attack Surface",
+					"Email Support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=starter"
+					label: "Get Started",
+					href: "/pricing/offensive-essentials"
 				}
 			},
 			{
-				name: "Pro",
-				monthlyPrice: 29.99,
-				yearlyPrice: 23.99, // 20% savings
-				description: "For growing teams and businesses",
+				name: "Security Operations",
+				monthlyPrice: 5000,
+				yearlyPrice: 50000, // Approximate, real price to be finalized
+				description: "Comprehensive security operations with advanced threat detection and response.",
 				features: [
-					"Unlimited projects",
-					"Advanced analytics",
-					"4-hour support response time",
-					"10GB storage",
-					"Custom domains",
-					"Team collaboration tools"
+					"All Essentials Features",
+					"Threat Intelligence Feeds",
+					"SIEM Integration",
+					"Incident Response",
+					"24/7 Support"
 				],
 				cta: {
-					label: "Get started",
-					href: "/signup?plan=pro"
+					label: "Contact Sales",
+					href: "/pricing/security-operations"
 				},
 				highlight: true
 			},
 			{
-				name: "Enterprise",
+				name: "Enterprise Intelligence",
 				monthlyPrice: null,
 				yearlyPrice: null,
-				description: "For large organizations with specific needs",
+				description: "Customized enterprise security solutions with advanced analytics and dedicated support.",
 				features: [
-					"Everything in Pro",
-					"Dedicated account manager",
-					"1-hour support response time",
-					"Unlimited storage",
-					"Advanced security features",
-					"Custom integrations",
-					"99.9% uptime SLA"
+					"All Security Operations Features",
+					"Custom Threat Modeling",
+					"Advanced Analytics",
+					"Dedicated Security Consultant",
+					"Custom Integrations",
+					"SLA"
 				],
 				cta: {
-					label: "Contact sales",
-					href: "/contact"
+					label: "Contact Sales",
+					href: "/pricing/enterprise-intelligence"
 				}
 			}
 		]
