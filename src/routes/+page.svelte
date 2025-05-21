@@ -7,16 +7,31 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CustomerCardHero from "$lib/components/layout/hero-sections/CustomerCardHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+<CustomerCardHero
+  centered={false}
+  title="Find vulnerabilities before attackers do"
+  subtitle="XBOW autonomously identifies and tests security weaknesses in your web app—so you can fix them before they’re exploited."
+  customers={[
+    { name: "James", position: "CTO, fintech platform", imageSrc: "/generated/image-a-confident-professional-male-cto-standi.webp" },
+    { name: "Rina", position: "head of security, enterprise SaaS", imageSrc: "/generated/image-a-confident-professional-woman-the-head-.webp" },
+    { name: "Andre", position: "engineering lead, ecommerce company", imageSrc: "/generated/image-a-relaxed-professional-male-engineering-.webp" },
+    { name: "Clara", position: "product security manager, cloud infrastructure", imageSrc: "/generated/image-a-professional-woman-a-product-security-.webp" },
+    { name: "Leo", position: "application owner, healthtech startup", imageSrc: "/generated/image-a-professional-male-application-owner-st.webp" },
+  ]}
 />
-<LogoScroller label="" generating />
+
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/airbnb.com',
+		'https://logo.clearbit.com/expedia.com',
+		'https://logo.clearbit.com/booking.com',
+		'https://logo.clearbit.com/dropbox.com'
+	]}
+/>
 
 <Summary
 	generating
