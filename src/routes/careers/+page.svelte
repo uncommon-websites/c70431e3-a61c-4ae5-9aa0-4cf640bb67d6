@@ -191,19 +191,28 @@
 <!-- Hero Section -->
 
 <SecondaryHero
-	title="Join our team of innovators"
-	subtitle="We're looking for passionate people to help us build the future of digital experiences. Discover your next opportunity with us."
+    title="Advance autonomous security with top minds"
+    subtitle="Grow fast. Build boldly. Secure the web together."
+    imageSrc="/generated/image-a-diverse-team-of-professionals-collabor.webp"
 />
 
 <!-- Why Join Us Section -->
 <section class={SECTION_BASE_CLASSES}>
-	<SectionHeader title="Why join us?" subtitle="Build your career while making an impact" />
+	<SectionHeader title="Why join us?" subtitle="Push boundaries, shape the future, build with impact." />
 
-	<div class="mt-16 grid gap-4 md:grid-cols-3">
-		{#each benefits as benefit}
-			<Card {...benefit} />
-		{/each}
-	</div>
+<div class="prose prose-primary mx-auto max-w-3xl mb-12">
+  <ul>
+    <li><strong>Technology with edge.</strong> Work on agentic AI and deep offensive security problems not tackled anywhere else.</li>
+    <li><strong>Impact from day one.</strong> Your work protects real users, improves live deployments, and advances the state of the art.</li>
+    <li><strong>Learn from elite minds.</strong> Join a stacked team spanning competitive hacking, compiler infrastructure, machine learning, and startups.</li>
+    <li><strong>Own value, not fluff.</strong> Fast cycle times. Real customers. Close ownership over what you ship.</li>
+  </ul>
+</div>
+<section class="grid md:grid-cols-3 gap-4">
+  <Card title="Flexible work" description="Remote-first with flexible hours and a focus on trust and autonomy." icon={IconBriefcase} />
+  <Card title="Growth & learning" description="Advance your skills with mentorship, education stipends, and unique peer learning opportunities." icon={IconUsers} />
+  <Card title="Comprehensive benefits" description="Competitive pay, ownership opportunities, health coverage, and generous time off." icon={IconHeart} />
+</section>
 </section>
 
 <!-- Culture Section -->

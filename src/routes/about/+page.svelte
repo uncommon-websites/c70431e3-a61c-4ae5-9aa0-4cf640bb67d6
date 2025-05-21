@@ -46,32 +46,41 @@
 
 <!-- StakeholderGrid Section -->
 <StakeholderGrid
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image:
-				"https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image:
-				"https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image:
-				"https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80"
-		}
-	]}
+  stakeholderType="team"
+  title="Our team."
+  subtitle="Security, AI, and engineering expertise"
+  stakeholders={[
+    {
+      name: "Oege de Moor",
+      position: "Founder & CEO",
+      bio: "Previously founded Diffblue, professor of computer science at Oxford, and leader in AI-driven security research.",
+      image: "/generated/image-a-professional-male-ceo-headshot-with-a-.webp"
+    },
+    {
+      name: "Nico Waisman",
+      position: "Head of Security",
+      bio: "Globally recognized security researcher with experience at GitHub, Immunity, and leading offensive security teams.",
+      image: "/generated/image-a-professional-male-security-researcher-.webp"
+    },
+    {
+      name: "Albert Ziegler",
+      position: "Head of AI",
+      bio: "AI expert with deep learning experience across large-scale projects in academia and industry.",
+      image: "/generated/ai_headshot.png"
+    },
+    {
+      name: "Andrew Rice",
+      position: "Head of Engineering",
+      bio: "Engineering leader and computer science professor specializing in systems and software reliability.",
+      image: "/generated/engineering_headshot.png"
+    },
+    {
+      name: "Aqeel Siddiqui",
+      position: "Head of Operations",
+      bio: "Operations lead with broad expertise managing high-performing technical and research teams.",
+      image: "/generated/image-a-professional-male-operations-headshot-.webp"
+    }
+  ]}
 />
 
 <StakeholderGrid
